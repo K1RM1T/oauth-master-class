@@ -57,7 +57,7 @@ window.onload = () => {
         buttonTheme: "light",
         buttonSize: "xxl",
         buttonBorderRadius: 50,
-        buttonView (additional),
+        buttonView "additional",
       }
     )
       .then(({ handler }) => handler())
