@@ -3,5 +3,5 @@ window.onload = () => {
    'https://oauth-master-class-git-main-kirmits-projects.vercel.app/', {
       flag: true
    }
-)
+  )
 };
