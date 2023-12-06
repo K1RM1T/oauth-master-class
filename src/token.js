@@ -1,3 +1,7 @@
 window.onload = () => {
-  YaSendSuggestToken('https://oauth-master-class-git-main-kirmits-projects.vercel.app/')
+  YaSendSuggestToken(
+   'https://oauth-master-class-git-main-kirmits-projects.vercel.app/', {
+      flag: true
+   }
+)
 };
