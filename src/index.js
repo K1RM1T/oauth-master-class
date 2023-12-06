@@ -27,7 +27,7 @@ window.onload = () => {
         parentId: "buttonContainer",
         buttonSize: "m",
         buttonView: "main",
-        buttonTheme: "light",
+        buttonTheme: "dark",
         buttonBorderRadius: "0",
         buttonIcon: "ya",
       }
@@ -54,9 +54,10 @@ window.onload = () => {
       {
         parentId: "buttonContainer",
         view: "button",
-        buttonTheme: "dark",
+        buttonTheme: "light",
         buttonSize: "xxl",
         buttonBorderRadius: 50,
+        buttonView (additional),
       }
     )
       .then(({ handler }) => handler())
