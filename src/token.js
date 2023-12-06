@@ -1,7 +1,3 @@
 window.onload = () => {
-  YaSendSuggestToken(
-   'https://example.com', {
-      flag: true
-   }
-  )
+  YaSendSuggestToken('https://oauth-master-class-git-main-kirmits-projects.vercel.app/')
 };
